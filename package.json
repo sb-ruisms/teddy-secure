@@ -1,0 +1,28 @@
+{
+	"name": "teddy-secure",
+	"version": "0.0.1-beta",
+	"description": "A node package to hash passwords with salt and pepper",
+	"main": "app.js",
+	"scripts": {
+		"test": "npm test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bongdreams/teddy-secure.git"
+	},
+	"keywords": [
+		"password-hash",
+		"cryptographic",
+		"salt",
+		"pepper",
+		"security",
+		"password-security",
+		"hashing"
+	  ],
+	"author": "Saikat Banerjee",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bongdreams/teddy-secure/issues"
+	},
+	"homepage": "https://github.com/bongdreams/teddy-secure#readme"
+}
