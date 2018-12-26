@@ -2,6 +2,6 @@
 
 'use strict';
 
-var encrypt = require('encrypt');
+var encrypt = require('./encrypt.js');
 
 module.exports = encrypt;
