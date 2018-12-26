@@ -1,6 +1,6 @@
 {
 	"name": "teddy-secure",
-	"version": "0.0.1-beta",
+	"version": "0.0.2-beta",
 	"description": "A node package to hash passwords with salt and pepper",
 	"main": "app.js",
 	"scripts": {
