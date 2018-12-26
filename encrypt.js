@@ -10,7 +10,7 @@ var getRandomSalt = function (callback) {
 };
 
 var getRandomPepper = function (callback) {
-	var alphabets = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	var alphabets = "abcdefghijklmnopqrstuvwxyz"
 	return callback(alphabets[Math.floor(Math.random() * alphabets.length)]);
 };
 
@@ -27,8 +27,8 @@ module.exports = {
 		});
 	},
 
-	check: function (plainOpenPassword, hashFromPasswordStore, salt, callback) {
-		var alphabets = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	compare: function (plainOpenPassword, hashFromPasswordStore, salt, callback) {
+		var alphabets = "abcdefghijklmnopqrstuvwxyz";
 
 		for (var i = 0; i < alphabets.length; i++) {
 			var newPasswordToHash = alphabets[i] + salt + plainOpenPassword + salt + alphabets[i];
