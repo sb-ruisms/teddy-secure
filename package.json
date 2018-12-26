@@ -12,12 +12,12 @@
 	},
 	"keywords": [
     "password-hash",
-    "cryptographic",
     "salt",
     "pepper",
     "security",
     "password-security",
-    "hashing"
+    "hashing",
+	"my_wife_is_as_cute_as_a_teddy"
   ],
 	"author": "Saikat Banerjee",
 	"license": "MIT",
