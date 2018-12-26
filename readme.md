@@ -1,6 +1,6 @@
 # teddy-secure
 
-[<img src='http://i63.tinypic.com/59zu9u.jpg' height=60/>]('https://www.npmjs.com/package/teddy-secure') &nbsp;&nbsp; [<img src='http://i63.tinypic.com/j0jmh0.jpg' height=60/>]('https://github.com/bongdreams/teddy-secure') &nbsp;&nbsp; [<img src='http://i66.tinypic.com/29de8zt.jpg' height=60/>]('https://twitter.com/BoNgDrEaMs')
+<a href="https://www.npmjs.com/package/teddy-secure"><img src='http://i63.tinypic.com/59zu9u.jpg' height=60/></a> &nbsp;&nbsp; <a href="https://github.com/bongdreams/teddy-secure"><img src='http://i63.tinypic.com/j0jmh0.jpg' height=60/></a> &nbsp;&nbsp; <a href="https://twitter.com/BoNgDrEaMs"><img src='http://i66.tinypic.com/29de8zt.jpg' height=60/></a>
 
 ### Password Hashing with Salt and Pepper
 
