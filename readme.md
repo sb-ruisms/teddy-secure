@@ -1,5 +1,7 @@
 # teddy-secure
 
+[<img src='http://i63.tinypic.com/59zu9u.jpg' height=60/>]('https://www.npmjs.com/package/teddy-secure') &nbsp;&nbsp; [<img src='http://i63.tinypic.com/j0jmh0.jpg' height=60/>]('https://github.com/bongdreams/teddy-secure') &nbsp;&nbsp; [<img src='http://i66.tinypic.com/29de8zt.jpg' height=60/>]('https://twitter.com/BoNgDrEaMs')
+
 ### Password Hashing with Salt and Pepper
 
 An easy-to-use, opinionated, password hashing with randomized salt and pepper. This package can be installed easily by using the command  ``` npm install teddy-secure ```. This library is opinionated in the way one might use the Salt and Pepper to password hashing. 
