@@ -16,7 +16,7 @@ describe('Hashing and Checking', function () {
 		});
 	});
 
-	describe('checking if the hash matches when tested with the real password', function () {
+	describe('Compare if the hash matches when tested with the real password', function () {
 		it('the compare function validates the hash', function (done) {
 			var plainOpenPassword = "newPassword";
 			encrypt.hash(plainOpenPassword, function (result) {
@@ -31,6 +31,16 @@ describe('Hashing and Checking', function () {
 			var plainOpenPassword = "newPassword";
 			encrypt.hash(plainOpenPassword, function (result) {
 				encrypt.compare("x", result.hash, result.salt, function (compareResultBoolean) {
+					expect(compareResultBoolean).to.equal(false);
+					done();
+				});
+			});
+		});
+
+		it('the compare function does not validate a wrong salt with the hash', function (done) {
+			var plainOpenPassword = "newPassword";
+			encrypt.hash(plainOpenPassword, function (result) {
+				encrypt.compare(plainOpenPassword, result.hash, 'some_other_salt', function (compareResultBoolean) {
 					expect(compareResultBoolean).to.equal(false);
 					done();
 				});
