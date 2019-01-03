@@ -1,10 +1,10 @@
 {
 	"name": "teddy-secure",
-	"version": "0.0.5-beta",
+	"version": "0.0.6-beta",
 	"description": "A node package to hash passwords with salt and pepper",
 	"main": "app.js",
 	"scripts": {
-		"test": "mocha"
+		"test": "nyc --reporter=text mocha"
 	},
 	"repository": {
 		"type": "git",
@@ -17,7 +17,7 @@
     "security",
     "password-security",
     "hashing",
-	"my_wife_is_as_cute_as_a_teddy"
+    "my_wife_is_as_cute_as_a_teddy"
   ],
 	"author": "Saikat Banerjee",
 	"license": "MIT",
@@ -30,6 +30,7 @@
 	},
 	"devDependencies": {
 		"chai": "^4.2.0",
-		"mocha": "^5.2.0"
+		"mocha": "^5.2.0",
+		"nyc": "^13.1.0"
 	}
 }
